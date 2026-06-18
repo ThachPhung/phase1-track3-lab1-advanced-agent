@@ -25,9 +25,94 @@ pip install -r requirements.txt
 # Chạy benchmark với mock data
 python run_benchmark.py --dataset data/hotpot_mini.json --out-dir outputs/sample_run
 
+# Chạy benchmark đủ ngưỡng autograde (104 mẫu mock mở rộng)
+python run_benchmark.py --dataset data/hotpot_mock_104.json --out-dir outputs/mock_104
+
+# Chạy bản benchmark chi tiết để nộp/xem báo cáo đầy đủ
+python run_benchmark.py --dataset data/hotpot_mock_104.json --out-dir outputs/detailed_benchmark
+
+# Tự kiểm tra thêm trên bộ 120 câu hỏi multi-hop đa dạng
+python run_benchmark.py --dataset data/hotpot_diverse_120.json --out-dir outputs/diverse_120
+
 # Chạy chấm điểm tự động
-python autograde.py --report-path outputs/sample_run/report.json
+python autograde.py --report-path outputs/mock_104/report.json
 ```
+
+### Chạy với LLM thật
+Mặc định repo vẫn dùng mock runtime để chạy offline và phục vụ autograde. Để thay bằng LLM thật, đặt `REFLEXION_RUNTIME` trước khi chạy benchmark:
+
+```bash
+# Ollama local
+export REFLEXION_RUNTIME=ollama
+export OLLAMA_MODEL=llama3.1
+python run_benchmark.py --dataset data/hotpot_mock_104.json --out-dir outputs/ollama_run
+
+# OpenAI hoặc endpoint OpenAI-compatible
+export REFLEXION_RUNTIME=openai
+export OPENAI_API_KEY=...
+export OPENAI_MODEL=gpt-4o-mini
+# Tuỳ chọn nếu dùng endpoint compatible khác:
+# export REFLEXION_OPENAI_BASE_URL=https://your-endpoint.example/v1
+python run_benchmark.py --dataset data/hotpot_mock_104.json --out-dir outputs/openai_run
+```
+
+Bạn cũng có thể tạo file `.env` để khỏi export mỗi lần:
+
+```bash
+cp .env.example .env
+# sửa OPENAI_API_KEY trong .env
+python run_benchmark.py --dataset data/hotpot_mini.json --out-dir outputs/openai_smoke
+```
+
+Để test chi phí thấp, dùng `OPENAI_MODEL=gpt-4o-mini` và chạy trước trên `data/hotpot_mini.json`. Khi smoke test ổn mới chạy Golden hoặc dataset lớn.
+
+Smoke test OpenAI tiết kiệm nhất:
+
+```bash
+python run_benchmark.py --dataset data/hotpot_mini.json --out-dir outputs/openai_smoke --limit 1
+```
+
+Nếu bị timeout SSL tới `api.openai.com`, kiểm tra VPN/proxy/firewall hoặc dùng endpoint OpenAI-compatible mà mạng của bạn truy cập được:
+
+```bash
+export REFLEXION_OPENAI_BASE_URL=https://your-endpoint.example/v1
+export REFLEXION_LLM_TIMEOUT=30
+export REFLEXION_LLM_RETRIES=2
+```
+
+Report sẽ tự ước tính tiền token trong `report.md` và `report.json`. Mặc định dùng giá tham khảo thấp cho `gpt-4o-mini`:
+
+```bash
+export REFLEXION_INPUT_PRICE_PER_1K_TOKENS=0.00015
+export REFLEXION_OUTPUT_PRICE_PER_1K_TOKENS=0.0006
+export REFLEXION_USD_TO_VND=25000
+```
+
+### Golden Test Set cuối ngày
+Khi giảng viên phát file Golden Test Set, lưu file vào `data/` theo đúng format `QAExample` hoặc HotpotQA gốc, ví dụ `data/golden_test.json`, rồi chạy:
+
+```bash
+python run_golden.py
+python autograde.py --report-path outputs/golden_test/report.json
+```
+
+Nếu file Golden có tên khác:
+
+```bash
+python run_golden.py --dataset data/<ten_file_golden>.json --out-dir outputs/golden_test
+```
+
+Các file cần nộp thường nằm trong `outputs/golden_test/`:
+- `report.json`
+- `report.md`
+- `react_runs.jsonl`
+- `reflexion_runs.jsonl`
+
+`report.md` tự sinh các phần cần trình bày:
+- Bảng so sánh ReAct Agent và Reflexion Agent
+- Bảng ước tính cost, token và running time
+- Summary benchmark, failure modes, extensions và discussion
+- Breakdown chi tiết theo agent, difficulty, correct/incorrect và sample trace/reflection
 
 ## Nhiệm vụ của Học viên
 

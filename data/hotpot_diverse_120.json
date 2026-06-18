@@ -1,0 +1,2002 @@
+[
+  {
+    "qid": "diverse_001",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Pride and Prejudice was born?",
+    "gold_answer": "England",
+    "context": [
+      {
+        "title": "Pride and Prejudice",
+        "text": "Pride and Prejudice was written by Jane Austen."
+      },
+      {
+        "title": "Jane Austen",
+        "text": "Jane Austen was born in Steventon, England."
+      },
+      {
+        "title": "Steventon",
+        "text": "Steventon is a city in England."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_002",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of One Hundred Years of Solitude was born?",
+    "gold_answer": "Colombia",
+    "context": [
+      {
+        "title": "One Hundred Years of Solitude",
+        "text": "One Hundred Years of Solitude was written by Gabriel Garcia Marquez."
+      },
+      {
+        "title": "Gabriel Garcia Marquez",
+        "text": "Gabriel Garcia Marquez was born in Aracataca, Colombia."
+      },
+      {
+        "title": "Aracataca",
+        "text": "Aracataca is a city in Colombia."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_003",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Things Fall Apart was born?",
+    "gold_answer": "Nigeria",
+    "context": [
+      {
+        "title": "Things Fall Apart",
+        "text": "Things Fall Apart was written by Chinua Achebe."
+      },
+      {
+        "title": "Chinua Achebe",
+        "text": "Chinua Achebe was born in Ogidi, Nigeria."
+      },
+      {
+        "title": "Ogidi",
+        "text": "Ogidi is a city in Nigeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_004",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of The Stranger was born?",
+    "gold_answer": "Algeria",
+    "context": [
+      {
+        "title": "The Stranger",
+        "text": "The Stranger was written by Albert Camus."
+      },
+      {
+        "title": "Albert Camus",
+        "text": "Albert Camus was born in Drean, Algeria."
+      },
+      {
+        "title": "Drean",
+        "text": "Drean is a city in Algeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_005",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Beloved was born?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "Beloved",
+        "text": "Beloved was written by Toni Morrison."
+      },
+      {
+        "title": "Toni Morrison",
+        "text": "Toni Morrison was born in Lorain, United States."
+      },
+      {
+        "title": "Lorain",
+        "text": "Lorain is a city in United States."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_006",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_007",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Tokyo?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_008",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lisbon?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_009",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Canberra?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Canberra",
+        "text": "Canberra is the capital city of Australia."
+      },
+      {
+        "title": "Australia",
+        "text": "Australia has a coastline on the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_010",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Reykjavik?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_011",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in London?",
+    "gold_answer": "CERN",
+    "context": [
+      {
+        "title": "Tim Berners-Lee",
+        "text": "Tim Berners-Lee was born in London and is associated with World Wide Web."
+      },
+      {
+        "title": "World Wide Web",
+        "text": "World Wide Web was created by CERN."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_012",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in White Plains?",
+    "gold_answer": "Meta",
+    "context": [
+      {
+        "title": "Mark Zuckerberg",
+        "text": "Mark Zuckerberg was born in White Plains and is associated with Facebook."
+      },
+      {
+        "title": "Facebook",
+        "text": "Facebook was created by Meta."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_013",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Pretoria?",
+    "gold_answer": "Tesla",
+    "context": [
+      {
+        "title": "Elon Musk",
+        "text": "Elon Musk was born in Pretoria and is associated with Tesla Roadster."
+      },
+      {
+        "title": "Tesla Roadster",
+        "text": "Tesla Roadster was created by Tesla."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_014",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Bangalore?",
+    "gold_answer": "UIDAI",
+    "context": [
+      {
+        "title": "Nandan Nilekani",
+        "text": "Nandan Nilekani was born in Bangalore and is associated with Aadhaar platform."
+      },
+      {
+        "title": "Aadhaar platform",
+        "text": "Aadhaar platform was created by UIDAI."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_015",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Portland?",
+    "gold_answer": "Linux Foundation",
+    "context": [
+      {
+        "title": "Linus Torvalds",
+        "text": "Linus Torvalds was born in Portland and is associated with Linux kernel."
+      },
+      {
+        "title": "Linux kernel",
+        "text": "Linux kernel was created by Linux Foundation."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_016",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered radioactivity work in?",
+    "gold_answer": "physics and chemistry",
+    "context": [
+      {
+        "title": "radioactivity",
+        "text": "radioactivity is attributed to Marie Curie."
+      },
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was a scientist known for work in physics and chemistry."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_017",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered penicillin work in?",
+    "gold_answer": "bacteriology",
+    "context": [
+      {
+        "title": "penicillin",
+        "text": "penicillin is attributed to Alexander Fleming."
+      },
+      {
+        "title": "Alexander Fleming",
+        "text": "Alexander Fleming was a scientist known for work in bacteriology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_018",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the neutron work in?",
+    "gold_answer": "physics",
+    "context": [
+      {
+        "title": "the neutron",
+        "text": "the neutron is attributed to James Chadwick."
+      },
+      {
+        "title": "James Chadwick",
+        "text": "James Chadwick was a scientist known for work in physics."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_019",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the structure of DNA work in?",
+    "gold_answer": "molecular biology",
+    "context": [
+      {
+        "title": "the structure of DNA",
+        "text": "the structure of DNA is attributed to Rosalind Franklin."
+      },
+      {
+        "title": "Rosalind Franklin",
+        "text": "Rosalind Franklin was a scientist known for work in molecular biology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_020",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered insulin work in?",
+    "gold_answer": "medicine",
+    "context": [
+      {
+        "title": "insulin",
+        "text": "insulin is attributed to Frederick Banting."
+      },
+      {
+        "title": "Frederick Banting",
+        "text": "Frederick Banting was a scientist known for work in medicine."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_021",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Machu Picchu is located?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Machu Picchu",
+        "text": "Machu Picchu is located in Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "A widely spoken official language in Peru is Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_022",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "Eiffel Tower is located in France."
+      },
+      {
+        "title": "France",
+        "text": "A widely spoken official language in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_023",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Taj Mahal is located?",
+    "gold_answer": "Hindi",
+    "context": [
+      {
+        "title": "Taj Mahal",
+        "text": "Taj Mahal is located in India."
+      },
+      {
+        "title": "India",
+        "text": "A widely spoken official language in India is Hindi."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_024",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Colosseum is located?",
+    "gold_answer": "Italian",
+    "context": [
+      {
+        "title": "Colosseum",
+        "text": "Colosseum is located in Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "A widely spoken official language in Italy is Italian."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_025",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Christ the Redeemer is located?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "Christ the Redeemer",
+        "text": "Christ the Redeemer is located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "A widely spoken official language in Brazil is Portuguese."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_026",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi was known as a player of the violin."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_027",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Moonlight Sonata play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Moonlight Sonata",
+        "text": "Moonlight Sonata was composed by Ludwig van Beethoven."
+      },
+      {
+        "title": "Ludwig van Beethoven",
+        "text": "Ludwig van Beethoven was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_028",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Nocturnes play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Nocturnes",
+        "text": "Nocturnes was composed by Frederic Chopin."
+      },
+      {
+        "title": "Frederic Chopin",
+        "text": "Frederic Chopin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_029",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Planets play?",
+    "gold_answer": "trombone",
+    "context": [
+      {
+        "title": "The Planets",
+        "text": "The Planets was composed by Gustav Holst."
+      },
+      {
+        "title": "Gustav Holst",
+        "text": "Gustav Holst was known as a player of the trombone."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_030",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Rhapsody in Blue play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Rhapsody in Blue",
+        "text": "Rhapsody in Blue was composed by George Gershwin."
+      },
+      {
+        "title": "George Gershwin",
+        "text": "George Gershwin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_031",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Pride and Prejudice was born?",
+    "gold_answer": "England",
+    "context": [
+      {
+        "title": "Pride and Prejudice",
+        "text": "Pride and Prejudice was written by Jane Austen."
+      },
+      {
+        "title": "Jane Austen",
+        "text": "Jane Austen was born in Steventon, England."
+      },
+      {
+        "title": "Steventon",
+        "text": "Steventon is a city in England."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_032",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of One Hundred Years of Solitude was born?",
+    "gold_answer": "Colombia",
+    "context": [
+      {
+        "title": "One Hundred Years of Solitude",
+        "text": "One Hundred Years of Solitude was written by Gabriel Garcia Marquez."
+      },
+      {
+        "title": "Gabriel Garcia Marquez",
+        "text": "Gabriel Garcia Marquez was born in Aracataca, Colombia."
+      },
+      {
+        "title": "Aracataca",
+        "text": "Aracataca is a city in Colombia."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_033",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Things Fall Apart was born?",
+    "gold_answer": "Nigeria",
+    "context": [
+      {
+        "title": "Things Fall Apart",
+        "text": "Things Fall Apart was written by Chinua Achebe."
+      },
+      {
+        "title": "Chinua Achebe",
+        "text": "Chinua Achebe was born in Ogidi, Nigeria."
+      },
+      {
+        "title": "Ogidi",
+        "text": "Ogidi is a city in Nigeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_034",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of The Stranger was born?",
+    "gold_answer": "Algeria",
+    "context": [
+      {
+        "title": "The Stranger",
+        "text": "The Stranger was written by Albert Camus."
+      },
+      {
+        "title": "Albert Camus",
+        "text": "Albert Camus was born in Drean, Algeria."
+      },
+      {
+        "title": "Drean",
+        "text": "Drean is a city in Algeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_035",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Beloved was born?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "Beloved",
+        "text": "Beloved was written by Toni Morrison."
+      },
+      {
+        "title": "Toni Morrison",
+        "text": "Toni Morrison was born in Lorain, United States."
+      },
+      {
+        "title": "Lorain",
+        "text": "Lorain is a city in United States."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_036",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_037",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Tokyo?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_038",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lisbon?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_039",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Canberra?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Canberra",
+        "text": "Canberra is the capital city of Australia."
+      },
+      {
+        "title": "Australia",
+        "text": "Australia has a coastline on the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_040",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Reykjavik?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_041",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in London?",
+    "gold_answer": "CERN",
+    "context": [
+      {
+        "title": "Tim Berners-Lee",
+        "text": "Tim Berners-Lee was born in London and is associated with World Wide Web."
+      },
+      {
+        "title": "World Wide Web",
+        "text": "World Wide Web was created by CERN."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_042",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in White Plains?",
+    "gold_answer": "Meta",
+    "context": [
+      {
+        "title": "Mark Zuckerberg",
+        "text": "Mark Zuckerberg was born in White Plains and is associated with Facebook."
+      },
+      {
+        "title": "Facebook",
+        "text": "Facebook was created by Meta."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_043",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Pretoria?",
+    "gold_answer": "Tesla",
+    "context": [
+      {
+        "title": "Elon Musk",
+        "text": "Elon Musk was born in Pretoria and is associated with Tesla Roadster."
+      },
+      {
+        "title": "Tesla Roadster",
+        "text": "Tesla Roadster was created by Tesla."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_044",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Bangalore?",
+    "gold_answer": "UIDAI",
+    "context": [
+      {
+        "title": "Nandan Nilekani",
+        "text": "Nandan Nilekani was born in Bangalore and is associated with Aadhaar platform."
+      },
+      {
+        "title": "Aadhaar platform",
+        "text": "Aadhaar platform was created by UIDAI."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_045",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Portland?",
+    "gold_answer": "Linux Foundation",
+    "context": [
+      {
+        "title": "Linus Torvalds",
+        "text": "Linus Torvalds was born in Portland and is associated with Linux kernel."
+      },
+      {
+        "title": "Linux kernel",
+        "text": "Linux kernel was created by Linux Foundation."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_046",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered radioactivity work in?",
+    "gold_answer": "physics and chemistry",
+    "context": [
+      {
+        "title": "radioactivity",
+        "text": "radioactivity is attributed to Marie Curie."
+      },
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was a scientist known for work in physics and chemistry."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_047",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered penicillin work in?",
+    "gold_answer": "bacteriology",
+    "context": [
+      {
+        "title": "penicillin",
+        "text": "penicillin is attributed to Alexander Fleming."
+      },
+      {
+        "title": "Alexander Fleming",
+        "text": "Alexander Fleming was a scientist known for work in bacteriology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_048",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the neutron work in?",
+    "gold_answer": "physics",
+    "context": [
+      {
+        "title": "the neutron",
+        "text": "the neutron is attributed to James Chadwick."
+      },
+      {
+        "title": "James Chadwick",
+        "text": "James Chadwick was a scientist known for work in physics."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_049",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the structure of DNA work in?",
+    "gold_answer": "molecular biology",
+    "context": [
+      {
+        "title": "the structure of DNA",
+        "text": "the structure of DNA is attributed to Rosalind Franklin."
+      },
+      {
+        "title": "Rosalind Franklin",
+        "text": "Rosalind Franklin was a scientist known for work in molecular biology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_050",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered insulin work in?",
+    "gold_answer": "medicine",
+    "context": [
+      {
+        "title": "insulin",
+        "text": "insulin is attributed to Frederick Banting."
+      },
+      {
+        "title": "Frederick Banting",
+        "text": "Frederick Banting was a scientist known for work in medicine."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_051",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Machu Picchu is located?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Machu Picchu",
+        "text": "Machu Picchu is located in Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "A widely spoken official language in Peru is Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_052",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "Eiffel Tower is located in France."
+      },
+      {
+        "title": "France",
+        "text": "A widely spoken official language in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_053",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Taj Mahal is located?",
+    "gold_answer": "Hindi",
+    "context": [
+      {
+        "title": "Taj Mahal",
+        "text": "Taj Mahal is located in India."
+      },
+      {
+        "title": "India",
+        "text": "A widely spoken official language in India is Hindi."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_054",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Colosseum is located?",
+    "gold_answer": "Italian",
+    "context": [
+      {
+        "title": "Colosseum",
+        "text": "Colosseum is located in Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "A widely spoken official language in Italy is Italian."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_055",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Christ the Redeemer is located?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "Christ the Redeemer",
+        "text": "Christ the Redeemer is located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "A widely spoken official language in Brazil is Portuguese."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_056",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi was known as a player of the violin."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_057",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Moonlight Sonata play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Moonlight Sonata",
+        "text": "Moonlight Sonata was composed by Ludwig van Beethoven."
+      },
+      {
+        "title": "Ludwig van Beethoven",
+        "text": "Ludwig van Beethoven was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_058",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Nocturnes play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Nocturnes",
+        "text": "Nocturnes was composed by Frederic Chopin."
+      },
+      {
+        "title": "Frederic Chopin",
+        "text": "Frederic Chopin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_059",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Planets play?",
+    "gold_answer": "trombone",
+    "context": [
+      {
+        "title": "The Planets",
+        "text": "The Planets was composed by Gustav Holst."
+      },
+      {
+        "title": "Gustav Holst",
+        "text": "Gustav Holst was known as a player of the trombone."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_060",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Rhapsody in Blue play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Rhapsody in Blue",
+        "text": "Rhapsody in Blue was composed by George Gershwin."
+      },
+      {
+        "title": "George Gershwin",
+        "text": "George Gershwin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_061",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Pride and Prejudice was born?",
+    "gold_answer": "England",
+    "context": [
+      {
+        "title": "Pride and Prejudice",
+        "text": "Pride and Prejudice was written by Jane Austen."
+      },
+      {
+        "title": "Jane Austen",
+        "text": "Jane Austen was born in Steventon, England."
+      },
+      {
+        "title": "Steventon",
+        "text": "Steventon is a city in England."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_062",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of One Hundred Years of Solitude was born?",
+    "gold_answer": "Colombia",
+    "context": [
+      {
+        "title": "One Hundred Years of Solitude",
+        "text": "One Hundred Years of Solitude was written by Gabriel Garcia Marquez."
+      },
+      {
+        "title": "Gabriel Garcia Marquez",
+        "text": "Gabriel Garcia Marquez was born in Aracataca, Colombia."
+      },
+      {
+        "title": "Aracataca",
+        "text": "Aracataca is a city in Colombia."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_063",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Things Fall Apart was born?",
+    "gold_answer": "Nigeria",
+    "context": [
+      {
+        "title": "Things Fall Apart",
+        "text": "Things Fall Apart was written by Chinua Achebe."
+      },
+      {
+        "title": "Chinua Achebe",
+        "text": "Chinua Achebe was born in Ogidi, Nigeria."
+      },
+      {
+        "title": "Ogidi",
+        "text": "Ogidi is a city in Nigeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_064",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of The Stranger was born?",
+    "gold_answer": "Algeria",
+    "context": [
+      {
+        "title": "The Stranger",
+        "text": "The Stranger was written by Albert Camus."
+      },
+      {
+        "title": "Albert Camus",
+        "text": "Albert Camus was born in Drean, Algeria."
+      },
+      {
+        "title": "Drean",
+        "text": "Drean is a city in Algeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_065",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Beloved was born?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "Beloved",
+        "text": "Beloved was written by Toni Morrison."
+      },
+      {
+        "title": "Toni Morrison",
+        "text": "Toni Morrison was born in Lorain, United States."
+      },
+      {
+        "title": "Lorain",
+        "text": "Lorain is a city in United States."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_066",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_067",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Tokyo?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_068",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lisbon?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_069",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Canberra?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Canberra",
+        "text": "Canberra is the capital city of Australia."
+      },
+      {
+        "title": "Australia",
+        "text": "Australia has a coastline on the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_070",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Reykjavik?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_071",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in London?",
+    "gold_answer": "CERN",
+    "context": [
+      {
+        "title": "Tim Berners-Lee",
+        "text": "Tim Berners-Lee was born in London and is associated with World Wide Web."
+      },
+      {
+        "title": "World Wide Web",
+        "text": "World Wide Web was created by CERN."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_072",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in White Plains?",
+    "gold_answer": "Meta",
+    "context": [
+      {
+        "title": "Mark Zuckerberg",
+        "text": "Mark Zuckerberg was born in White Plains and is associated with Facebook."
+      },
+      {
+        "title": "Facebook",
+        "text": "Facebook was created by Meta."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_073",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Pretoria?",
+    "gold_answer": "Tesla",
+    "context": [
+      {
+        "title": "Elon Musk",
+        "text": "Elon Musk was born in Pretoria and is associated with Tesla Roadster."
+      },
+      {
+        "title": "Tesla Roadster",
+        "text": "Tesla Roadster was created by Tesla."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_074",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Bangalore?",
+    "gold_answer": "UIDAI",
+    "context": [
+      {
+        "title": "Nandan Nilekani",
+        "text": "Nandan Nilekani was born in Bangalore and is associated with Aadhaar platform."
+      },
+      {
+        "title": "Aadhaar platform",
+        "text": "Aadhaar platform was created by UIDAI."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_075",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Portland?",
+    "gold_answer": "Linux Foundation",
+    "context": [
+      {
+        "title": "Linus Torvalds",
+        "text": "Linus Torvalds was born in Portland and is associated with Linux kernel."
+      },
+      {
+        "title": "Linux kernel",
+        "text": "Linux kernel was created by Linux Foundation."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_076",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered radioactivity work in?",
+    "gold_answer": "physics and chemistry",
+    "context": [
+      {
+        "title": "radioactivity",
+        "text": "radioactivity is attributed to Marie Curie."
+      },
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was a scientist known for work in physics and chemistry."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_077",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered penicillin work in?",
+    "gold_answer": "bacteriology",
+    "context": [
+      {
+        "title": "penicillin",
+        "text": "penicillin is attributed to Alexander Fleming."
+      },
+      {
+        "title": "Alexander Fleming",
+        "text": "Alexander Fleming was a scientist known for work in bacteriology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_078",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the neutron work in?",
+    "gold_answer": "physics",
+    "context": [
+      {
+        "title": "the neutron",
+        "text": "the neutron is attributed to James Chadwick."
+      },
+      {
+        "title": "James Chadwick",
+        "text": "James Chadwick was a scientist known for work in physics."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_079",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the structure of DNA work in?",
+    "gold_answer": "molecular biology",
+    "context": [
+      {
+        "title": "the structure of DNA",
+        "text": "the structure of DNA is attributed to Rosalind Franklin."
+      },
+      {
+        "title": "Rosalind Franklin",
+        "text": "Rosalind Franklin was a scientist known for work in molecular biology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_080",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered insulin work in?",
+    "gold_answer": "medicine",
+    "context": [
+      {
+        "title": "insulin",
+        "text": "insulin is attributed to Frederick Banting."
+      },
+      {
+        "title": "Frederick Banting",
+        "text": "Frederick Banting was a scientist known for work in medicine."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_081",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Machu Picchu is located?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Machu Picchu",
+        "text": "Machu Picchu is located in Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "A widely spoken official language in Peru is Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_082",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "Eiffel Tower is located in France."
+      },
+      {
+        "title": "France",
+        "text": "A widely spoken official language in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_083",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Taj Mahal is located?",
+    "gold_answer": "Hindi",
+    "context": [
+      {
+        "title": "Taj Mahal",
+        "text": "Taj Mahal is located in India."
+      },
+      {
+        "title": "India",
+        "text": "A widely spoken official language in India is Hindi."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_084",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Colosseum is located?",
+    "gold_answer": "Italian",
+    "context": [
+      {
+        "title": "Colosseum",
+        "text": "Colosseum is located in Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "A widely spoken official language in Italy is Italian."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_085",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Christ the Redeemer is located?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "Christ the Redeemer",
+        "text": "Christ the Redeemer is located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "A widely spoken official language in Brazil is Portuguese."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_086",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi was known as a player of the violin."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_087",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Moonlight Sonata play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Moonlight Sonata",
+        "text": "Moonlight Sonata was composed by Ludwig van Beethoven."
+      },
+      {
+        "title": "Ludwig van Beethoven",
+        "text": "Ludwig van Beethoven was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_088",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Nocturnes play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Nocturnes",
+        "text": "Nocturnes was composed by Frederic Chopin."
+      },
+      {
+        "title": "Frederic Chopin",
+        "text": "Frederic Chopin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_089",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Planets play?",
+    "gold_answer": "trombone",
+    "context": [
+      {
+        "title": "The Planets",
+        "text": "The Planets was composed by Gustav Holst."
+      },
+      {
+        "title": "Gustav Holst",
+        "text": "Gustav Holst was known as a player of the trombone."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_090",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Rhapsody in Blue play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Rhapsody in Blue",
+        "text": "Rhapsody in Blue was composed by George Gershwin."
+      },
+      {
+        "title": "George Gershwin",
+        "text": "George Gershwin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_091",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Pride and Prejudice was born?",
+    "gold_answer": "England",
+    "context": [
+      {
+        "title": "Pride and Prejudice",
+        "text": "Pride and Prejudice was written by Jane Austen."
+      },
+      {
+        "title": "Jane Austen",
+        "text": "Jane Austen was born in Steventon, England."
+      },
+      {
+        "title": "Steventon",
+        "text": "Steventon is a city in England."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_092",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of One Hundred Years of Solitude was born?",
+    "gold_answer": "Colombia",
+    "context": [
+      {
+        "title": "One Hundred Years of Solitude",
+        "text": "One Hundred Years of Solitude was written by Gabriel Garcia Marquez."
+      },
+      {
+        "title": "Gabriel Garcia Marquez",
+        "text": "Gabriel Garcia Marquez was born in Aracataca, Colombia."
+      },
+      {
+        "title": "Aracataca",
+        "text": "Aracataca is a city in Colombia."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_093",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Things Fall Apart was born?",
+    "gold_answer": "Nigeria",
+    "context": [
+      {
+        "title": "Things Fall Apart",
+        "text": "Things Fall Apart was written by Chinua Achebe."
+      },
+      {
+        "title": "Chinua Achebe",
+        "text": "Chinua Achebe was born in Ogidi, Nigeria."
+      },
+      {
+        "title": "Ogidi",
+        "text": "Ogidi is a city in Nigeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_094",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of The Stranger was born?",
+    "gold_answer": "Algeria",
+    "context": [
+      {
+        "title": "The Stranger",
+        "text": "The Stranger was written by Albert Camus."
+      },
+      {
+        "title": "Albert Camus",
+        "text": "Albert Camus was born in Drean, Algeria."
+      },
+      {
+        "title": "Drean",
+        "text": "Drean is a city in Algeria."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_095",
+    "difficulty": "medium",
+    "question": "Which country contains the city where the author of Beloved was born?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "Beloved",
+        "text": "Beloved was written by Toni Morrison."
+      },
+      {
+        "title": "Toni Morrison",
+        "text": "Toni Morrison was born in Lorain, United States."
+      },
+      {
+        "title": "Lorain",
+        "text": "Lorain is a city in United States."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_096",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_097",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Tokyo?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan has a coastline on the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_098",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lisbon?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_099",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Canberra?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Canberra",
+        "text": "Canberra is the capital city of Australia."
+      },
+      {
+        "title": "Australia",
+        "text": "Australia has a coastline on the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_100",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Reykjavik?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland has a coastline on the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_101",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in London?",
+    "gold_answer": "CERN",
+    "context": [
+      {
+        "title": "Tim Berners-Lee",
+        "text": "Tim Berners-Lee was born in London and is associated with World Wide Web."
+      },
+      {
+        "title": "World Wide Web",
+        "text": "World Wide Web was created by CERN."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_102",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in White Plains?",
+    "gold_answer": "Meta",
+    "context": [
+      {
+        "title": "Mark Zuckerberg",
+        "text": "Mark Zuckerberg was born in White Plains and is associated with Facebook."
+      },
+      {
+        "title": "Facebook",
+        "text": "Facebook was created by Meta."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_103",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Pretoria?",
+    "gold_answer": "Tesla",
+    "context": [
+      {
+        "title": "Elon Musk",
+        "text": "Elon Musk was born in Pretoria and is associated with Tesla Roadster."
+      },
+      {
+        "title": "Tesla Roadster",
+        "text": "Tesla Roadster was created by Tesla."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_104",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Bangalore?",
+    "gold_answer": "UIDAI",
+    "context": [
+      {
+        "title": "Nandan Nilekani",
+        "text": "Nandan Nilekani was born in Bangalore and is associated with Aadhaar platform."
+      },
+      {
+        "title": "Aadhaar platform",
+        "text": "Aadhaar platform was created by UIDAI."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_105",
+    "difficulty": "hard",
+    "question": "Which company created the product associated with the inventor born in Portland?",
+    "gold_answer": "Linux Foundation",
+    "context": [
+      {
+        "title": "Linus Torvalds",
+        "text": "Linus Torvalds was born in Portland and is associated with Linux kernel."
+      },
+      {
+        "title": "Linux kernel",
+        "text": "Linux kernel was created by Linux Foundation."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_106",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered radioactivity work in?",
+    "gold_answer": "physics and chemistry",
+    "context": [
+      {
+        "title": "radioactivity",
+        "text": "radioactivity is attributed to Marie Curie."
+      },
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was a scientist known for work in physics and chemistry."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_107",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered penicillin work in?",
+    "gold_answer": "bacteriology",
+    "context": [
+      {
+        "title": "penicillin",
+        "text": "penicillin is attributed to Alexander Fleming."
+      },
+      {
+        "title": "Alexander Fleming",
+        "text": "Alexander Fleming was a scientist known for work in bacteriology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_108",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the neutron work in?",
+    "gold_answer": "physics",
+    "context": [
+      {
+        "title": "the neutron",
+        "text": "the neutron is attributed to James Chadwick."
+      },
+      {
+        "title": "James Chadwick",
+        "text": "James Chadwick was a scientist known for work in physics."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_109",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered the structure of DNA work in?",
+    "gold_answer": "molecular biology",
+    "context": [
+      {
+        "title": "the structure of DNA",
+        "text": "the structure of DNA is attributed to Rosalind Franklin."
+      },
+      {
+        "title": "Rosalind Franklin",
+        "text": "Rosalind Franklin was a scientist known for work in molecular biology."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_110",
+    "difficulty": "hard",
+    "question": "What field did the scientist who discovered insulin work in?",
+    "gold_answer": "medicine",
+    "context": [
+      {
+        "title": "insulin",
+        "text": "insulin is attributed to Frederick Banting."
+      },
+      {
+        "title": "Frederick Banting",
+        "text": "Frederick Banting was a scientist known for work in medicine."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_111",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Machu Picchu is located?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Machu Picchu",
+        "text": "Machu Picchu is located in Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "A widely spoken official language in Peru is Spanish."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_112",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "Eiffel Tower is located in France."
+      },
+      {
+        "title": "France",
+        "text": "A widely spoken official language in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_113",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Taj Mahal is located?",
+    "gold_answer": "Hindi",
+    "context": [
+      {
+        "title": "Taj Mahal",
+        "text": "Taj Mahal is located in India."
+      },
+      {
+        "title": "India",
+        "text": "A widely spoken official language in India is Hindi."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_114",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Colosseum is located?",
+    "gold_answer": "Italian",
+    "context": [
+      {
+        "title": "Colosseum",
+        "text": "Colosseum is located in Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "A widely spoken official language in Italy is Italian."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_115",
+    "difficulty": "medium",
+    "question": "Which language is spoken in the country where Christ the Redeemer is located?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "Christ the Redeemer",
+        "text": "Christ the Redeemer is located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "A widely spoken official language in Brazil is Portuguese."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_116",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi was known as a player of the violin."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_117",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Moonlight Sonata play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Moonlight Sonata",
+        "text": "Moonlight Sonata was composed by Ludwig van Beethoven."
+      },
+      {
+        "title": "Ludwig van Beethoven",
+        "text": "Ludwig van Beethoven was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_118",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Nocturnes play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Nocturnes",
+        "text": "Nocturnes was composed by Frederic Chopin."
+      },
+      {
+        "title": "Frederic Chopin",
+        "text": "Frederic Chopin was known as a player of the piano."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_119",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Planets play?",
+    "gold_answer": "trombone",
+    "context": [
+      {
+        "title": "The Planets",
+        "text": "The Planets was composed by Gustav Holst."
+      },
+      {
+        "title": "Gustav Holst",
+        "text": "Gustav Holst was known as a player of the trombone."
+      }
+    ]
+  },
+  {
+    "qid": "diverse_120",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Rhapsody in Blue play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Rhapsody in Blue",
+        "text": "Rhapsody in Blue was composed by George Gershwin."
+      },
+      {
+        "title": "George Gershwin",
+        "text": "George Gershwin was known as a player of the piano."
+      }
+    ]
+  }
+]
